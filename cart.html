@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6ab714d48.js" crossorigin="anonymous"></script>
+    <title>Ecommerce</title>
+</head>
+<body>
+    <!--header section-->
+    <section class="header" id="header">
+        <a href="#" class="logo"><i class="fa-solid fa-crown"></i>bima</a>
+
+        <div class="navbar" id="navbar">
+            <a href="index.html">home</a>
+            <a href="shop.html">shop</a>
+            <a href="blog.html">blog</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+            <a class="active" href="cart.html" id="lg-bag"><i class="fas fa-shopping-cart"></i></a>
+            <i class="fas fa-times" id="close"></i>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <i class="fas fa-bars" id="bar"></i>
+        </div>
+    </section>
+    
+    <!--hero section-->
+    <section class="contact-header" id="page-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, We love to hear from you!</p>
+    </section>
+    
+    <section id="cart" class="section-p1">
+        <table width="100%" class="tabl">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody class="cart-items">
+                <tr class="cart-row">
+                    <td><button class="away"> remove</button></td>
+                    <td><img src="images/products/pro1.jpg" alt=""></td>
+                    <td>Black Shirts</td>
+                    <td><input type="number" value="1" class="cinput"></td>
+                    <td class="price">$43</td>
+                </tr>
+
+                <tr  class="cart-row">
+                    <td><button class="away"> remove</button></td>
+                    <td><img src="images/products/pro2.jpg" alt=""></td>
+                    <td>Black Shirts</td>
+                    <td><input type="number" value="1" class="cinput"></td>
+                    <td class="price">$43</td>
+                </tr>
+
+                <tr class="cart-row">
+                    <td><a href=""></a><i class="fas fa-times-circle"></i></td>
+                    <td><img src="images/products/pro3.jpg" alt=""></td>
+                    <td>Black Shirts</td>
+                    <td><input type="number" value="1" class="cinput"></td>
+                    <td class="price">$43</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td class="total">$129</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td class="total"><strong>$129</strong></td>
+                </tr>
+            </table>
+            <button>Procced to checkout</button>
+        </div>
+    </section>
+
+    <section class="section-p1" id="footer">
+        <div class="col">
+            <a href="#" class="logo"><i class="fa-solid fa-crown"></i>bima</a>
+            <h4>contact</h4>
+            <p><strong>address:</strong> Lorem ipsum dolor sit amet consectetur.</p>
+            <p><strong>phone:</strong> Lorem ipsum d.</p>
+            <p><strong>hours:</strong> Lorem ipsum dolor sit amet .</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icons">
+                    <i class="fas fa-facebook"></i>
+                    <i class="fas fa-twitter"></i>
+                    <i class="fas fa-pinterest"></i>
+                    <i class="fas fa-instagram"></i>
+                    <i class="fas fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <h4>about</h4>
+            <a href="">about us</a>
+            <a href="">delivery</a>
+            <a href="">privacy policy</a>
+            <a href="">terms and condition</a>
+            <a href="">contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>my account</h4>
+            <a href="">sign in</a>
+            <a href="">view cart</a>
+            <a href="">my whishlist</a>
+            <a href="">track my order</a>
+            <a href="">help</a>
+        </div>
+
+        <div class="col">
+            <h4>events</h4>
+            <a href="">bonaza</a>
+            <a href="">50%-off</a>
+            <a href="">black friday</a>
+            <a href="">christmas sales</a>
+            <a href="">easter sales</a>
+        </div>
+
+        <div class="col-install">
+            <h4>install app</h4>
+            <p> from google play or app store</p>
+            <div class="row">
+                <img src="images/pay/pay1.jpg" alt="">
+            </div>
+            <p>secured payment gateways</p>
+            <img src="images/pay/pay2.jpg" alt="">
+        </div>
+
+        <div class="copyright">
+            <p class="fa-regular fa-copyright">2022, <i class="fa-solid fa-crown"></i>bima - eccomerce template</p>
+        </div>     
+    </section>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
